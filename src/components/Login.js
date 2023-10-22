@@ -22,7 +22,7 @@ function Login({ setLoggedIn }) {
 
   return (
     <div className="login-container" style={{marginTop:'20%'}}>
-      <h2>Inicia sesión en Clínica</h2>
+      <h2>Inicia sesión en Clínica Genérica</h2>
       <br></br><br></br>
       <form className="login-form">
         <div className="form-group">
