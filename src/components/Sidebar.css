@@ -1,0 +1,30 @@
+#sidebar {
+  width: 15%; /* Ancho del menú lateral */
+  position: fixed; /* Menú fijo en la pantalla */
+  top: 0; /* Alinear arriba de la pantalla */
+  left: 0; /* Alinear a la izquierda de la pantalla */
+  height: 100%; /* Altura de pantalla completa */
+  background-color: #333; /* Color de fondo */
+}
+
+#sidebar .nav-link {
+  display: block; /* Hace que los elementos se muestren uno debajo del otro */
+  padding: 10px 20px; /* Espaciado entre elementos */
+  color: #fff; /* Color del texto */
+}
+
+/* Nuevos estilos para evitar superposición */
+.cuerpo {
+  margin-left: 250px; /* Alinea el contenido principal a la derecha de la barra lateral */
+  padding: 20px; /* Espaciado para el contenido principal */
+  transition: margin-left 0.3s; /* Agrega una transición suave para el desplazamiento */
+}
+
+.titulo {
+  background-color: #f0f0f0; /* Color de fondo del título */
+  padding: 20px; /* Espaciado alrededor del título */
+}
+
+.h1 {
+  margin: 0; /* Elimina el margen superior del encabezado h1 */
+}
