@@ -35,6 +35,16 @@ function Index() {
         <ContenidoOcultable titulo="Visita 5 de Marzo 2023" motivo="Control de rutina" explicacion="Se realiza control al paciente, no existen cambios en el tratamiento puesto que la evolución de la enfermedad es positiva, mantener medicamentos" doctor="Dr. Felipe Moreno"/>
         
       </div>
+
+      <br></br>
+
+      <button
+          className="btn float-left"
+          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%'}}
+          onClick={() => navigate('/Index.js')}>
+          Volver
+        </button>
+
     </div>
   );
 }
