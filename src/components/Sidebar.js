@@ -7,6 +7,11 @@ import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
   const navigate = useNavigate();
+
+  const VolverALogin = () => {
+    // Cambia la ubicación actual de la página a la URL de Google
+    window.location.href = 'http://localhost:3000/';
+  };
   return (
     <div>
       <Navbar bg="dark" variant="dark" id="sidebar">
@@ -53,7 +58,7 @@ function Sidebar() {
             <button
               className="btn"
               style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff' }}
-              onClick={() => navigate('/Login.js')}>
+              onClick={VolverALogin}>
               Cerrar Sesion
             </button>
           </Nav.Link>
