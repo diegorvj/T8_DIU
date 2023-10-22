@@ -33,12 +33,12 @@ function Index() {
           <div className="row justify-content-center">
             <div className="col-md-6">
               <div className="border p-4">
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre completo: *nombre persona actual* </p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Numero de intentificacion (DNI): *DNI persona actual*</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Fecha nacimiento: *fecha persona actual*</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Genero: *genero de la persona actual*</p>                
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Parentesco: *parentesco entre usuario y persona actual*</p>                
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Direccion: *direccion persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre completo: *nombre persona actual* </p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Numero de intentificacion (DNI): *DNI persona actual*</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Fecha nacimiento: *fecha persona actual*</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Genero: *genero de la persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Parentesco: *parentesco entre usuario y persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Direccion: *direccion persona actual*</p>                
               </div>
             </div>
           </div>

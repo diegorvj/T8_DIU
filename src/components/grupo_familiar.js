@@ -2,6 +2,8 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import './Index.css';
 import { useNavigate } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/js/bootstrap.bundle.min'; 
 
 
 function Index() {
@@ -34,10 +36,11 @@ function Index() {
           <div className="row justify-content-center">
             <div className="col-md-6">
               <div className="border p-4">
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Fernanda Lopez Fernandez</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hijo(a)</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 15 años</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 18/07/2021</p>                
+
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%'}}>Nombre: Fernanda Lopez Fernandez</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hijo(a)</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 15 años</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 18/07/2021</p>                
 
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <button
@@ -68,10 +71,10 @@ function Index() {
           <div className="row justify-content-center">
             <div className="col-md-6">
               <div className="border p-4">
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Juan Hernandez Fernandez</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hermano(a)</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 45 años</p>
-                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 06/01/1997</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Juan Hernandez Fernandez</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hermano(a)</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 45 años</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 06/01/1997</p>                
 
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <button
