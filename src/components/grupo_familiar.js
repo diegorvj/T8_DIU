@@ -101,9 +101,43 @@ function Index() {
 
         <br></br>
 
+        <div className="container" style={{marginRight:'30%'}}>
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <div className="border p-4">
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Jorge Hernandez Guajardo</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Padre / Madre</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 79 años</p>
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 18/08/1996</p>                
+
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <button
+                    className="btn"
+                    style={{ color: '#5A7684', justifyContent: 'right', }}
+                    onClick={() => navigate('/perfil_familiar.js')}>
+                    Perfil completo
+                  </button>
+
+                  <button
+                    className="btn disabled"
+                    style={{ color: '#5A7684', justifyContent: 'right', }}
+                    onClick={() => navigate('/historial_familiar.js')}>
+                    Historial Medico
+                  </button>
+
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br></br>
+
         <button
           className="btn float-left"
-          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%'}}
+          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%', marginBottom:'10px'}}
           onClick={() => navigate('/Index.js')}>
           Volver
         </button>

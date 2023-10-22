@@ -5,7 +5,7 @@
   left: 0; /* Alinear a la izquierda de la pantalla */
   height: 100%; /* Altura de pantalla completa */
   background-color: #333; /* Color de fondo */
-  margin-top: 8.5%;
+  margin-top: 0%;
   align-items:flex-start;
   justify-content: center;
   

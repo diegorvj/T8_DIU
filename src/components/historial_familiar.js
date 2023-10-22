@@ -39,7 +39,7 @@ function Index() {
 
       <button
           className="btn float-left"
-          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%'}}
+          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%', marginBottom:'10px'}}
           onClick={() => navigate('/grupo_familiar.js')}>
           Volver
         </button>

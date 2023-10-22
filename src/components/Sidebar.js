@@ -12,10 +12,10 @@ function Sidebar() {
       <Navbar bg="dark" variant="dark" id="sidebar">
         <Nav className="flex-column">
           <Navbar.Brand>
+          <br></br>
           <h2>Menu</h2>
           </Navbar.Brand>
-          <br></br>
-          <br></br>
+          <br></br><br></br><br></br><br></br><br></br>
           <Nav.Link className="nav-link">
             <button
               className="btn"
