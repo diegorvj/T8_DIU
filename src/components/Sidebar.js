@@ -2,26 +2,65 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './Sidebar.css';
+import { useNavigate } from 'react-router-dom';
 
 function Sidebar() {
+  const navigate = useNavigate();
   return (
     <div>
       <Navbar bg="dark" variant="dark" id="sidebar">
         <Nav className="flex-column">
-          <Navbar.Brand href="#home">Menú Lateral</Navbar.Brand>
-          <Nav.Link href="index.js">Item 1</Nav.Link>
-          <Nav.Link href="#item2">Item 2</Nav.Link>
-          <Nav.Link href="#item3">Item 3</Nav.Link>
-          <NavDropdown title="Submenú">
-            <NavDropdown.Item href="#subitem1">Subitem 1</NavDropdown.Item>
-            <NavDropdown.Item href="#subitem2">Subitem 2</NavDropdown.Item>
-          </NavDropdown>
+          <Navbar.Brand>
+          <h2>Menu</h2>
+          </Navbar.Brand>
+          <br></br>
+          <br></br>
+          <Nav.Link className="nav-link">
+            <button
+              className="btn"
+              style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff' }}
+              onClick={() => navigate('/informacion_personal.js')}>
+              Informacion Personal
+            </button>
+          </Nav.Link>
+
+          <br></br>
+
+          <Nav.Link className="nav-link">
+            <button
+              className="btn"
+              style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff' }}
+              onClick={() => navigate('/historial_personal.js')}>
+              Historial Medico
+            </button>
+          </Nav.Link>
+
+          <br></br>
+
+          <Nav.Link className="nav-link">
+            <button
+              className="btn"
+              style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff' }}
+              onClick={() => navigate('/grupo_familiar.js')}>
+              Grupo Familiar
+            </button>
+          </Nav.Link>
+
+          <br></br>
+
+          <Nav.Link className="nav-link">
+            <button
+              className="btn"
+              style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff' }}
+              onClick={() => navigate('/Login.js')}>
+              Cerrar Sesion
+            </button>
+          </Nav.Link>
+          
         </Nav>
       </Navbar>
-      <div className="content">
-        {/* Contenido principal */}
-      </div>
     </div>
   );
 }
