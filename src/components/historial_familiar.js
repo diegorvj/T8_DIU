@@ -2,17 +2,10 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import './Index.css';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function Index() {
 
   const navigate = useNavigate();
-
-  const redirigirAInformacionPersonal = () => {
-    navigate('/informacion_personal');
-  };
-
-  
   return (
     <div>
       <div>
@@ -22,16 +15,12 @@ function Index() {
         
           <div className='titulo' style={{ display: 'flex', alignItems: 'center' }}>
 
-          
-
-          <button
-            className="btn"
-            style={{ color: '#fff', justifyContent: 'left', paddingLeft: '4.5%' }}
-            onClick={() => navigate('/Index.js')}>
-            Pagina Principal
-          </button>
-
-            
+            <button
+              className="btn"
+              style={{ color: '#fff', justifyContent: 'left', paddingLeft: '4.5%' }}
+              onClick={() => navigate('/Index.js')}>
+              Pagina Principal
+            </button>
             
             <h1 className='h1' style={{ color:'#fff', paddingLeft:'33%'}}>CLINICA GENERICA</h1>
             
@@ -48,4 +37,3 @@ function Index() {
 }
 
 export default Index;
-
