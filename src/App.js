@@ -29,7 +29,7 @@ function App() {
       <BrowserRouter>
         <Routes>
 
-          <Route path="/Login.js" element={loggedIn ? <Index /> : <Login setLoggedIn={setLoggedIn} />} />
+          <Route path="/" element={loggedIn ? <Index /> : <Login setLoggedIn={setLoggedIn} />} />
           <Route path="/Index.js" element={loggedIn ? <Index /> : <Navigate to="/Login.js" />} />
           <Route path="/informacion_personal.js" element={<InformacionPersonal />} />
           <Route path="/adicional_familiar.js" element={<AdicionalFamiliar />} />

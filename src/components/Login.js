@@ -21,13 +21,14 @@ function Login({ setLoggedIn }) {
   }
 
   return (
-    <div className="login-container">
-      <h2>Iniciar sesión</h2>
+    <div className="login-container" style={{marginTop:'20%'}}>
+      <h2>Inicia sesión en Clínica</h2>
+      <br></br><br></br>
       <form className="login-form">
         <div className="form-group">
           <input
             type="text"
-            placeholder="Correo Electrónico"
+            placeholder="RUT"
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
@@ -40,9 +41,11 @@ function Login({ setLoggedIn }) {
             onChange={(e) => setPassword(e.target.value)}
           />
         </div>
-        <button type="button" className="login-button" onClick={handleLogin}>
-          Iniciar Sesión
+        <button type="button" className="login-button" onClick={handleLogin} style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginBottom:'10px'}}>
+          Ingresar
         </button>
+
+        
       </form>
     </div>
   );
