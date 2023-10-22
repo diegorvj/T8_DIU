@@ -2,17 +2,10 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import './Index.css';
 import { useNavigate } from 'react-router-dom';
-import { Link } from 'react-router-dom';
 
 function Index() {
 
   const navigate = useNavigate();
-
-  const redirigirAInformacionPersonal = () => {
-    navigate('/informacion_personal');
-  };
-
-  
   return (
     <div>
       <div>
@@ -21,8 +14,6 @@ function Index() {
       <div className='cuerpo'>
         
           <div className='titulo' style={{ display: 'flex', alignItems: 'center' }}>
-
-          
 
           <button
             className="btn"

@@ -3,6 +3,7 @@ import Sidebar from './Sidebar';
 import './Index.css';
 import { useNavigate } from 'react-router-dom';
 
+
 function Index() {
 
   const navigate = useNavigate();
@@ -26,11 +27,83 @@ function Index() {
             
           </div>
         
-        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>agregar contenido dependiendo de vista</h2>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
+        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>Miembros Grupo Familiar</h2>
+        
+
+        <div className="container" style={{marginRight:'30%'}}>
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <div className="border p-4">
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Fernanda Lopez Fernandez</p>
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hijo(a)</p>
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 15 años</p>
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 18/07/2021</p>                
+
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <button
+                    className="btn"
+                    style={{ color: '#5A7684', justifyContent: 'right', }}
+                    onClick={() => navigate('/perfil_familiar.js')}>
+                    Perfil completo
+                  </button>
+
+                  <button
+                    className="btn"
+                    style={{ color: '#5A7684', justifyContent: 'right', }}
+                    onClick={() => navigate('/historial_familiar.js')}>
+                    Historial Medico
+                  </button>
+
+                  
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br></br>
+
+        <div className="container" style={{marginRight:'30%'}}>
+          <div className="row justify-content-center">
+            <div className="col-md-6">
+              <div className="border p-4">
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Juan Hernandez Fernandez</p>
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hermano(a)</p>
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 45 años</p>
+                <p style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 06/01/1997</p>                
+
+                <div style={{ display: 'flex', alignItems: 'center' }}>
+                  <button
+                    className="btn"
+                    style={{ color: '#5A7684', justifyContent: 'right', }}
+                    onClick={() => navigate('/perfil_familiar.js')}>
+                    Perfil completo
+                  </button>
+
+                  <button
+                    className="btn disabled"
+                    style={{ color: '#5A7684', justifyContent: 'right', }}
+                    onClick={() => navigate('/historial_familiar.js')}>
+                    Historial Medico
+                  </button>
+
+                  
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <br></br>
+
+        <button
+          className="btn float-left"
+          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%'}}
+          onClick={() => navigate('/Index.js')}>
+          Volver
+        </button>
       </div>
     </div>
   );
