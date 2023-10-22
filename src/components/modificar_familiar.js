@@ -63,6 +63,21 @@ function Index() {
                   <input type="email" className="form-control" id="email" />
                 </div>
 
+                <div className="form-group">
+                  <label htmlFor="mensaje">Alergias</label>
+                  <input type="email" className="form-control" id="email" />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="mensaje">Intolerancias alimenticias</label>
+                  <input type="email" className="form-control" id="email" />
+                </div>
+
+                <div className="form-group">
+                  <label htmlFor="mensaje">Medicacion cronica</label>
+                  <input type="email" className="form-control" id="email" />
+                </div>
+
                 
               </form>
             </div>
@@ -75,14 +90,14 @@ function Index() {
 
           <button
             className="btn float-left"
-            style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginLeft: '20%'}}
+            style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginLeft: '20%', marginBottom:'10px'}}
             onClick={() => navigate('/perfil_familiar.js')}>
             Modificar 
           </button>
 
           <button
             className="btn float-left"
-            style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginLeft:'20px'}}
+            style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginLeft:'20px', marginBottom:'10px'}}
             onClick={() => navigate('/perfil_familiar.js')}>
             Volver
           </button>
