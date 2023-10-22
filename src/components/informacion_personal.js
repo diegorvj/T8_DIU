@@ -1,8 +1,8 @@
 import React from 'react';
 import Sidebar from './Sidebar';
-import './Index.css';
+import './informacion_personal.css';
 import { useNavigate } from 'react-router-dom';
-
+import fotoPerfil from '../imagenes/FotoPerfil.jpg';
 function Index() {
 
   const navigate = useNavigate();
@@ -26,11 +26,21 @@ function Index() {
             
           </div>
         
-        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>agregar contenido dependiendo de vista</h2>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
-        <p style={{ textAlign: 'left', marginLeft: '20%', marginTop: '0%' }}>contenido</p>
+        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>Información Personal</h2>
+        <div className="profile">
+      <div className="profile">
+        <div className="profile-card">
+        <img src={fotoPerfil} alt="Foto de perfil" className="profile-photo" />
+          <h3 className="profile-title">Hernan Hernandez Ibarra</h3>
+          <p><strong>RUT:</strong> 12345678-9</p>
+          <p><strong>Dirección:</strong> Calle Falsa 123</p>
+          <p><strong>Fecha de nacimiento:</strong> 01/01/1980</p>
+          <p><strong>Alergias:</strong> Ninguna</p>
+          <p><strong>Intolerancias alimenticias:</strong> Gluten</p>
+          <p><strong>Medicación crónica:</strong> Ninguna</p>
+        </div>
+      </div>
+    </div>
       </div>
     </div>
   );

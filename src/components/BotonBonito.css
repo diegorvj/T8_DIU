@@ -1,0 +1,16 @@
+.boton-bonito {
+    background-color: #5A7684; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Quita el borde */
+    padding: 5px 10px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 20px;
+  
+    /* Agrega estilos de hover para mejorar la interacción */
+    transition: background-color 0.3s ease;
+  }
+  
+  .boton-rojo {
+    background-color: #ff0000; /* Cambia el color de fondo a rojo */
+  }

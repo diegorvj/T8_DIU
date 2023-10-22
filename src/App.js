@@ -1,4 +1,5 @@
 import './App.css';
+import Profile from './components/Profile';
 import React, { useState } from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './components/Login';
@@ -16,6 +17,8 @@ import PerfilFamiliar from './components/perfil_familiar';
 
 
 
+
+
 function App() {
 
   const [loggedIn, setLoggedIn] = useState(false);
@@ -25,6 +28,7 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
+
           <Route path="/Login.js" element={loggedIn ? <Index /> : <Login setLoggedIn={setLoggedIn} />} />
           <Route path="/Index.js" element={loggedIn ? <Index /> : <Navigate to="/Login.js" />} />
           <Route path="/informacion_personal.js" element={<InformacionPersonal />} />
