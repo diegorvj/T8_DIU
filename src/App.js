@@ -13,25 +13,14 @@ function App() {
 
     <div className="App">
 
+    <div className="App">
       <BrowserRouter>
-
-        <nav>
-          <ul>
-            <li>
-              <Link to="/login">Iniciar Sesión</Link>
-            </li>
-            <li>
-              <Link to="/Index.js">Página de Inicio</Link>
-            </li>
-          </ul>
-        </nav>
-
         <Routes>
-          <Route path="/login" element={<Login setLoggedIn={setLoggedIn} />} />
+          <Route path="/" element={loggedIn ? <Index /> : <Login setLoggedIn={setLoggedIn} />} />
           <Route path="/index.js" element={loggedIn ? <Index /> : <Navigate to="/login" />} />
         </Routes>
-
       </BrowserRouter>
+    </div>
 
       
     </div>
