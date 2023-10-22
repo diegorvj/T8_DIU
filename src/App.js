@@ -1,7 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import React, { useState } from 'react';
-import { BrowserRouter, Route, Routes, Navigate, Link } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import Login from './components/Login';
 import Index from './components/Index';
 import InformacionPersonal from './components/informacion_personal'; 
