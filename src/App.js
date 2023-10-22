@@ -16,8 +16,8 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={loggedIn ? <Index /> : <Login setLoggedIn={setLoggedIn} />} />
-          <Route path="/index.js" element={loggedIn ? <Index /> : <Navigate to="/login" />} />
+          <Route path="/Login.js" element={loggedIn ? <Index /> : <Login setLoggedIn={setLoggedIn} />} />
+          <Route path="/Index.js" element={loggedIn ? <Index /> : <Navigate to="/Login.js" />} />
         </Routes>
       </BrowserRouter>
     </div>
