@@ -1,0 +1,13 @@
+.profile {
+  background-color: white;
+  color: black;
+}
+
+.profile h1 {
+  color: black;
+}
+
+.profile .submit-button {
+  background-color: skyblue;
+  color: black;
+}
