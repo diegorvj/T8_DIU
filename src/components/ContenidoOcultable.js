@@ -17,11 +17,9 @@ function ContenidoOcultable({ titulo, motivo, explicacion, doctor}) {
       
       {mostrarContenido && (
         <div className='border p-3 rounded' style={{marginBottom: '2%', marginLeft: '30%', marginRight: '30%'}}>
-            <div className='row-justify-content-center'>
             <h5 style={{ textAlign: 'left', marginLeft: '3%', marginTop: '1%' }}>{motivo}</h5>
-            <p style={{ textAlign: 'left', marginLeft: '6%', marginTop: '1%' }}>{explicacion}</p>
-            <p style={{ textAlign: 'left', marginLeft: '6%', marginTop: '1%' }}>Profesional: {doctor}</p>
-            </div>
+            <p className='text-dark' style={{ textAlign: 'left', marginLeft: '6%', marginTop: '1%'}}>{explicacion}</p>
+            <p className='text-dark' style={{ textAlign: 'left', marginLeft: '6%', marginTop: '1%'}}>Profesional: {doctor}</p>
         </div>
       )}
     </div>
