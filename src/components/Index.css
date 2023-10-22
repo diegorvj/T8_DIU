@@ -14,6 +14,17 @@
     font-size: 18px;
     color: #555;
   }
+
+  .image-row {
+    display: flex;
+    justify-content: center; /* Centrar las imágenes horizontalmente */
+    align-items: flex-start; /* Alinear las imágenes en la parte superior */
+    flex-wrap: nowrap; /* Las imágenes no se envuelven a la siguiente línea */
+    margin-top: 20px;
+  }
   
-  /* Puedes agregar más estilos según sea necesario */
-  
+  .image {
+    max-width: 50%; /* Limitar el ancho máximo al 50% del contenedor */
+    height: auto; /* Mantener la relación de aspecto de la imagen */
+    margin: 5px; /* Espacio entre las imágenes */
+  }
