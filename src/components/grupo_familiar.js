@@ -40,7 +40,7 @@ function Index() {
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%'}}>Nombre: Fernanda Lopez Fernandez</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hijo(a)</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 15 años</p>
-                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 18/07/2021</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscripcion: 18/07/2021</p>                
 
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <button
@@ -74,7 +74,7 @@ function Index() {
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Juan Hernandez Fernandez</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Hermano(a)</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 45 años</p>
-                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 06/01/1997</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscripcion: 06/01/1997</p>                
 
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <button
@@ -108,7 +108,7 @@ function Index() {
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Jorge Hernandez Guajardo</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Parentesco: Padre / Madre</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Edad: 79 años</p>
-                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscricion: 18/08/1996</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Fecha inscripcion: 18/08/1996</p>                
 
                 <div style={{ display: 'flex', alignItems: 'center' }}>
                   <button
