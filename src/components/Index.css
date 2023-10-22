@@ -1,0 +1,19 @@
+.index-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #f0f0f0;
+  }
+  
+  .index-header {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .index-content {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Puedes agregar más estilos según sea necesario */
+  
