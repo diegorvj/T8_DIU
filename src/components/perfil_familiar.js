@@ -36,9 +36,13 @@ function Index() {
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre completo: *nombre persona actual* </p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Numero de intentificacion (DNI): *DNI persona actual*</p>
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Fecha nacimiento: *fecha persona actual*</p>
-                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Genero: *genero de la persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Género: *genero de la persona actual*</p>                
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Parentesco: *parentesco entre usuario y persona actual*</p>                
-                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Direccion: *direccion persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Dirección: *direccion persona actual*</p>     
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Alergias: *alergias persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Intolerancias alimenticias: *intolerancias persona actual*</p>                
+                <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '5%' }}>Medicación crónica: *medicacion cronica persona actual*</p>                
+
               </div>
             </div>
           </div>
