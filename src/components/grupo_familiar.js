@@ -46,7 +46,7 @@ function Index() {
                   <button
                     className="btn"
                     style={{ color: '#5A7684', justifyContent: 'right', }}
-                    onClick={() => navigate('/perfil_familiar.js')}>
+                    onClick={() => navigate('/perfil_familiarfernanda.js')}>
                     Perfil completo
                   </button>
 
