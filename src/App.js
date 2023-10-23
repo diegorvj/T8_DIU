@@ -15,6 +15,7 @@ import ModificarPersonal from './components/modificar_personal';
 import PerfilFamiliar from './components/perfil_familiar';
 import InformacionPersonalModificada from './components/informacion_personalmodificada';
 import PerfilFamiliarFernanda from './components/perfil_familiarfernanda';
+import ModificarFernanda from './components/modificar_fernanda';
 
 
 
@@ -44,6 +45,8 @@ function App() {
           <Route path="/perfil_familiar.js" element={<PerfilFamiliar />} />
           <Route path="/informacion_personalmodificada.js" element={<InformacionPersonalModificada />} />
           <Route path="/perfil_familiarfernanda.js" element={<PerfilFamiliarFernanda />} />
+          <Route path="/modificar_fernanda.js" element={<ModificarFernanda />} />
+
 
           
         </Routes>
