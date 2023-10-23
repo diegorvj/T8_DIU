@@ -9,6 +9,9 @@
 
 Información médica: Una clínica mantiene el registro de todas las atenciones del grupo familiar tanto adultos como niños, donde se puede ver la historia de atenciones médicas con anamnesis y exámenes realizados con sus resultados. Además, cada integrante mayor de edad puede cambiar los datos de cada integrante menor de edad. El objetivo es diseñar la forma de presentar esa información en forma compresiva para los padres.
 
+## Video presentación MVP y metas
+https://drive.google.com/file/d/1vgw_IvU0Rl9esbqs5nj2yxVWIcWszdD6/view?usp=sharing
+
 
 ### Requerimientos
 - Node js
