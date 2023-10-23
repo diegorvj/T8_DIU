@@ -91,7 +91,7 @@ function Index() {
           <button
             className="btn float-left"
             style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginLeft: '20%', marginBottom:'10px' }}
-            onClick={() => navigate('/informacion_personal.js')}>
+            onClick={() => navigate('/informacion_personalmodificada.js')}>
             Modificar 
           </button>
 
