@@ -10,24 +10,10 @@ function Index() {
 
   const navigate = useNavigate();
   return (
-    <div>
-      <div>
-        <Sidebar />
-      </div>
-      <div className='cuerpo'>
-        
-          <div className='titulo' style={{ display: 'flex', alignItems: 'center' }}>
+    <Sidebar>
 
-            <button
-              className="btn"
-              style={{ color: '#fff', justifyContent: 'left', paddingLeft: '4.5%' }}
-              onClick={() => navigate('/Index.js')}>
-              Pagina Principal
-            </button>
-            
-            <h1 className='h1' style={{ color:'#fff', paddingLeft:'33%'}}>CLINICA GENERICA</h1>
-            
-          </div>
+<div className='cuerpo'>
+        
         
         <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>Miembros Grupo Familiar</h2>
         
@@ -55,11 +41,9 @@ function Index() {
                     style={{ color: '#5A7684', justifyContent: 'right', }}
                     onClick={() => navigate('/historial_familiar.js')}>
                     Historial Medico
-                  </button>
-
-                  
+                  </button>  
+                                  
                 </div>
-
               </div>
             </div>
           </div>
@@ -142,7 +126,8 @@ function Index() {
           Volver
         </button>
       </div>
-    </div>
+
+    </Sidebar>
   );
 }
 

@@ -8,24 +8,9 @@ function Index() {
 
   const navigate = useNavigate();
   return (
-    <div>
-      <div>
-        <Sidebar />
-      </div>
-      <div className='cuerpo'>
-        
-          <div className='titulo' style={{ display: 'flex', alignItems: 'center' }}>
+    <Sidebar>
 
-            <button
-              className="btn"
-              style={{ color: '#fff', justifyContent: 'left', paddingLeft: '4.5%' }}
-              onClick={() => navigate('/Index.js')}>
-              Pagina Principal
-            </button>
-            
-            <h1 className='h1' style={{ color:'#fff', paddingLeft:'33%'}}>CLINICA GENERICA</h1>
-            
-          </div>
+      <div className='cuerpo'>
         
         <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>Modificando datos del familiar</h2>
        
@@ -34,6 +19,7 @@ function Index() {
           <div className="row justify-content-left" style={{marginLeft:'5%'}}>
             <div className="col-md-6" >
               <form style={{ textAlign: 'left'}}>
+                
                 <div className="form-group">
                   <label htmlFor="nombre" >Nombre Completo</label>
                   <input type="text" className="form-control" id="nombre" />
@@ -106,7 +92,8 @@ function Index() {
         </div>
 
       </div>
-    </div>
+
+    </Sidebar>
   );
 }
 
