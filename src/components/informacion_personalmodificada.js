@@ -3,6 +3,8 @@ import Sidebar from './Sidebar';
 import './informacion_personal.css';
 import { useNavigate } from 'react-router-dom';
 import fotoPerfil from '../imagenes/FotoPerfil.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function Index() {
 
   const navigate = useNavigate();

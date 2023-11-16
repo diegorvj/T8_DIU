@@ -2,6 +2,7 @@ import React from 'react';
 import Sidebar from './Sidebar';
 import './Index.css';
 import { useNavigate } from 'react-router-dom';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Index() {
 

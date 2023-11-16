@@ -3,6 +3,7 @@ import Sidebar from './Sidebar';
 import './Index.css';
 import { useNavigate } from 'react-router-dom';
 import ContenidoOcultable from './ContenidoOcultable';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Index() {
 
