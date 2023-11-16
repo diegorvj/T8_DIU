@@ -16,13 +16,13 @@ function Sidebar( { children } ) {
     <Container fluid className="p-0">
 
       {/* Barra Superior */}
-      <Navbar bg="dark" variant="dark" className="py-5 d-flex align-items-center">
+      <Navbar bg="dark" variant="dark" className="py-5 d-flex align-items-center" style={{background: 'linear-gradient(to right, #343a40, #5A7684)'}}>
         <div style={{ position: 'relative', width: '7%', marginLeft: '5%' }}>
           <NavLink to="/Index.js">
             <img src={logo} alt="Logo" className="img-fluid" style={{ width: '100%' }} />
           </NavLink>
         </div>
-        <Navbar.Brand className='mx-auto fs-1'>Clinica Generica</Navbar.Brand>
+        <Navbar.Brand className='fs-1' style={{marginLeft: '6%'}}>Clinica Generica</Navbar.Brand>
       </Navbar>
 
       <Container fluid className="p-0 d-flex">
