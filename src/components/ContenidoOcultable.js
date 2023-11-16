@@ -8,7 +8,7 @@ function ContenidoOcultable({ titulo, motivo, explicacion, doctor}) {
 
   return (
     <div>
-      <h4 style={{ textAlign: 'left', marginLeft: '20%', marginTop: '2%' }}>
+      <h4 style={{ textAlign: 'left', marginLeft: '10%', marginTop: '2%' }}>
         {titulo}
         <button className={`boton-bonito ${mostrarContenido ? 'boton-rojo' : ''}`} style={{marginLeft: '5%', marginTop: '0%' }} onClick={() => setMostrarContenido(!mostrarContenido)}>
             {mostrarContenido ? 'Ocultar' : 'Expandir'}

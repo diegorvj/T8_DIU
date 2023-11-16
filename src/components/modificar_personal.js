@@ -11,8 +11,7 @@ function Index() {
     <Sidebar>
 
       <div className='cuerpo'>
-  
-        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>Modificando datos personales</h2>
+        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '5%', marginTop: '0%' }}>Modificando datos personales</h2>
        
 
         <div className="container">

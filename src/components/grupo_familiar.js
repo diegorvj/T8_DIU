@@ -15,11 +15,11 @@ function Index() {
 <div className='cuerpo'>
         
         
-        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '15%', marginTop: '0%' }}>Miembros Grupo Familiar</h2>
+        <h2 className='h1'style={{ textAlign: 'left', marginLeft: '5%', marginTop: '0%' }}>Miembros Grupo Familiar</h2>
         
 
-        <div className="container" style={{marginRight:'30%'}}>
-          <div className="row justify-content-center">
+        <div className="container">
+          <div className="row">
             <div className="col-md-6">
               <div className="border p-4">
 
@@ -51,8 +51,8 @@ function Index() {
 
         <br></br>
 
-        <div className="container" style={{marginRight:'30%'}}>
-          <div className="row justify-content-center">
+        <div className="container" >
+          <div className="row">
             <div className="col-md-6">
               <div className="border p-4">
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Juan Hernandez Fernandez</p>
@@ -85,8 +85,8 @@ function Index() {
 
         <br></br>
 
-        <div className="container" style={{marginRight:'30%'}}>
-          <div className="row justify-content-center">
+        <div className="container">
+          <div className="row">
             <div className="col-md-6">
               <div className="border p-4">
                 <p className="text-dark" style={{ textAlign: 'left', marginLeft: '0%', marginTop: '0%' }}>Nombre: Jorge Hernandez Guajardo</p>
@@ -121,10 +121,10 @@ function Index() {
 
         <button
           className="btn float-left"
-          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '51%', marginBottom:'10px'}}
+          style={{ width: '200px', backgroundColor:'#5A7684', color: '#fff', marginRight: '70%', marginBottom:'10px'}}
           onClick={() => navigate('/Index.js')}>
           Volver
-        </button>
+      </button>
       </div>
 
     </Sidebar>
