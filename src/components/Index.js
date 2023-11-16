@@ -1,17 +1,9 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Container, Navbar, Nav } from 'react-bootstrap';
-import { NavLink, useNavigate } from 'react-router-dom';
-import logo from '../imagenes/logo.png';
 import Sidebar from './Sidebar';
 
-const VolverALogin = () => {
-  // Cambia la ubicación actual de la página a la URL de Google
-  window.location.href = 'http://localhost:3000/';
-};
-
 const Index = () => {
-  const navigate = useNavigate();
+  
   return (
 
     <Sidebar>
